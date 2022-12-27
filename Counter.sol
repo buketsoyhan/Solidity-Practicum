@@ -1,12 +1,12 @@
 pragma solidity 0.8.7;
 
 contract Counter {
-    uint public count;
+    uint public count; //a count defined
 
-    function inc() external{
+    function increment() external{ // increments the counter by one
         count +=1;
     }
-    function dec() external{
+    function decrement() external{ // decrements the counter by one
         count -=1;
     }
 }
